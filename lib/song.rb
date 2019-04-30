@@ -56,8 +56,7 @@ class Song
   def self.new_from_filename(file)
     info = file.split("-")
     artist = info[0]
-    name = info[1].gsub
-    
+    name = info[1].gsub(//)
     new_song = self.new
     new_song.artist_name = artist
     new_song.name = name
