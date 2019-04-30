@@ -56,8 +56,7 @@ class Song
   def self.new_from_filename(file)
     new_song = self.new 
     info = file.split(" ")
-    new_song.artist_name = info[0]
-    new_song.name = info[2]
+    
   end  
   
   def self.destroy_all
