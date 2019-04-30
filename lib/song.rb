@@ -61,7 +61,7 @@ class Song
     
     new_song = self.new
     new_song.name = name
-    new_song.artist_name = artist
+    new_song.artist_name = artist_name
   end  
   
   def self.destroy_all
