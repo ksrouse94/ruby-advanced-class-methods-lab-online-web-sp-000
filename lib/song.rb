@@ -60,7 +60,7 @@ class Song
     
     new_song = self.new
     new_song.artist_name = artist
-    new_song.name = name.strip!
+    new_song.name = name
     
   end  
   
