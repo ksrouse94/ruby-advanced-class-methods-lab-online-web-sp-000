@@ -57,6 +57,7 @@ class Song
     info = file.split("-")
     artist = info[0]
     name = info[1].gsub(/.mp3/)
+    
     new_song = self.new
     new_song.artist_name = artist
     new_song.name = name
