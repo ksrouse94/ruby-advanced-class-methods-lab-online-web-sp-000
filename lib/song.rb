@@ -58,6 +58,7 @@ class Song
     info = file.split("-")
     name = info[0]
     artist = info[1].tr(".mp3")
+    puts artist
   end  
   
   def self.destroy_all
