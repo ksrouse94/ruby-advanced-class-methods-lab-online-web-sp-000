@@ -68,6 +68,8 @@ class Song
   
   def self.create_from_filename(file)
     info = file.split("-")
+    artist = info[0]
+    name = info[1]
   end  
   
   def self.destroy_all
