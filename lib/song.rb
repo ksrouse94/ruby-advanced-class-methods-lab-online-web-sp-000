@@ -57,11 +57,10 @@ class Song
     info = file.split("-")
     name = info[0]
     artist = info[1]
-    artist_name = artist[-3]
     
     new_song = self.new
     new_song.name = name
-    new_song.artist_name = artist_name
+    new_song.artist_name = artist
   end  
   
   def self.destroy_all
